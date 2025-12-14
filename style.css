@@ -1,0 +1,284 @@
+.font-family-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#logo {
+  height: 70px;
+}
+
+#nav-right {
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+.navbar .nav-link {
+    color: rgb(25, 69, 25) !important;        
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: rgb(37, 153, 37)!important;       
+}
+
+
+.navbar .nav-link.active {
+    color: rgb(37, 153, 37) !important;
+}
+
+.navbar .dropdown-menu {
+    background-color: #e9f7e8 !important;   
+    border: none;
+}
+
+.navbar .dropdown-item {
+    color: #1d422e !important;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #d4f1d6 !important;   
+    color: #1d422e !important;
+}
+
+.navbar .dropdown-item.active,
+.navbar .dropdown-item:active {
+    background-color: rgb(15, 146, 15) !important;   
+    color: #ffffff !important;         
+}
+/* navbar end  */
+
+.carousel_text{
+   position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.carousel_slide{
+  margin-top: 80px;
+}
+
+#about_heading{
+  font-size: 100px;
+  color: rgb(15, 146, 15);
+}
+
+.button{
+  background-color: rgb(40, 144, 40);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 16px;
+  font-weight: 400;
+}
+
+.button:hover{
+  background-color: rgb(40, 112, 40);
+}
+
+.about_heading2{
+  font-size: 40px;
+  color: rgb(25, 69, 25);
+}
+
+.about_heading3{
+  color: rgb(25, 69, 25);
+}
+
+.icon_{
+  color: rgb(15, 146, 15);
+}
+/* about end  */
+
+.counter-banner {
+    background: linear-gradient(rgba(29, 66, 46, 0.607), rgba(29, 66, 46, 0.738)),
+                url("./img/counter1.jpg") center/cover no-repeat;
+    padding: 100px 0;
+}
+/* counter end  */
+
+.features{
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+  padding: 50px 20px;
+  margin: 20px;
+}
+
+.card{
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.color_green{
+  color: rgb(15, 146, 15);
+}
+
+.dark_green_heading{
+  color: rgb(25, 69, 25);
+}
+
+.quote-section {
+    background: linear-gradient(rgba(29, 66, 46, 0.607), rgba(29, 66, 46, 0.738)),
+    url("./img/carousel-2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.quote-box {
+    width: 80%;
+    max-width: 800px;
+    
+}
+
+.quote-input {
+    background: #e9f7e8;
+    border: none;
+    padding: 15px;
+}
+
+
+/* Remove background image */
+.quote-section-pg {
+  padding: 80px 0;
+}
+
+.quote-box-pg {
+  width: 80%;
+  max-width: 800px;
+  background: #e9f7e8 !important;  
+  box-shadow: none !important;
+  border-radius: 12px;
+}
+
+.quote-input-pg {
+    background: #ffffff; 
+    padding: 15px;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+.project-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.project-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(3, 73, 40, 0.559);
+    transform: translateX(-100%);
+    transition: 0.4s ease;
+    z-index: 1;
+}
+
+.project-box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(3, 73, 40, 0.559);
+    transform: translateX(100%);
+    transition: 0.4s ease;
+    z-index: 1;
+}
+
+.project-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 0;
+    z-index: 2;
+    transition: 0.4s ease;
+    text-align: center;
+}
+
+.project-box:hover::before {
+    transform: translateX(0);
+}
+
+.project-box:hover::after {
+    transform: translateX(0);
+}
+
+.project-box:hover .project-text {
+    opacity: 1;
+}
+
+.project-tabs {
+    background: #effaef;
+}
+
+.project-tabs li {
+    color: rgba(37, 116, 37, 0.808);
+    font-weight: 600;
+    margin: 16px;
+}
+
+.project-tabs li:hover{
+  color: rgb(113, 180, 45);;
+}
+
+.team-card {
+    position: relative;
+}
+
+.team-info-box {
+    position: absolute;
+    bottom: 15px;    
+    width: 70%;
+    background: #fff;
+    padding: 15px 20px;
+}
+
+.banner {
+    background: linear-gradient(rgba(29, 66, 46, 0.607), rgba(29, 66, 46, 0.738)),
+                url("./img/counter1.jpg") center/cover no-repeat;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.contact-input {
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #ced4da !important;   
+    border-radius: 6px !important;           
+    box-shadow: none !important;
+}
+
+
+.footer_bgColor{
+  background-color: rgb(15, 66, 41);
+}
+
+.footer_signup{
+  background-color: rgb(15, 146, 15);
+  color: white;
+}
+
+.footer_signup:hover{
+  background-color: rgb(18, 130, 18);
+}
+
+
+
+
+

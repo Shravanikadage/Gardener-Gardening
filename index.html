@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gardener - Gardening</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="font-family-poppins">
+
+   <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <img src="./img/logo.png" class="img-fluid ms-0 ms-md-0 ms-lg-5" id="logo" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="nav-right">
+                    <li class="nav-item mx-2">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                    <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                    <a class="nav-link" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                    <a class="nav-link" href="./project.html">Projects</a>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./features.html">Features</a></li>
+                        <li><a class="dropdown-item" href="./ourTeam.html">Our Team</a></li>
+                        <li><a class="dropdown-item" href="./freeQuote.html">Free Quote</a></li>
+                        <li><a class="dropdown-item" href="./testimonial.html">Testimonial</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item mx-2">
+                    <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar end  -->
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel_slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 0"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active carousel-bg" style="background: linear-gradient(rgba(29, 66, 46, 0.607), rgba(29, 66, 46, 0.738)),url(./img/carousel-1.jpg); height: 650px; background-size: cover; background-position: top center; color: white;">
+            <div class="carousel-caption carousel_text">
+                <h1 class="display-3 fw-bold">Make Your Home Like Garden</h1>  
+            </div>
+            </div>
+            <div class="carousel-item carousel-bg" style="background: linear-gradient(rgba(29, 66, 46, 0.607), rgba(29, 66, 46, 0.738)),url(./img/carousel-2.jpg); height: 650px; background-size: cover; background-position: top center; color: white;">
+            <div class="carousel-caption carousel_text">
+                <h1 class="display-3 fw-bold">Create Your Own Small Garden At Home</h1>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- carousel end  -->
+
+
+    <section class="container my-5">
+        <div class="row g-4">
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="p-5 shadow d-flex">
+                    <div class="me-3">
+                        <span class="d-flex align-items-center justify-content-center rounded-circle bg-success bg-opacity-10" style="width:40px; height:40px;">
+                            <i class="fa-solid fa-xmark color_green fs-6"></i>
+                        </span>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold dark_green_heading">No Hidden Cost</h4>
+                        <p class="mb-0 text-secondary">Clita erat ipsum lorem sit sed stet duo justo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="p-5 shadow d-flex">
+                    <div class="me-3">
+                        <span class="d-flex align-items-center justify-content-center rounded-circle bg-success bg-opacity-10" style="width:40px; height:40px;">
+                            <i class="fa-solid fa-users color_green fs-6"></i>
+                        </span>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold dark_green_heading">Dedicated Team</h4>
+                        <p class="mb-0 text-secondary">Clita erat ipsum lorem sit sed stet duo justo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="p-5 shadow d-flex">
+                    <div class="me-3">
+                        <span class="d-flex align-items-center justify-content-center rounded-circle bg-success bg-opacity-10" style="width:40px; height:40px;">
+                            <i class="fa-solid fa-phone color_green fs-6"></i>
+                        </span>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold dark_green_heading">24/7 Available</h4>
+                        <p class="mb-0 text-secondary">Clita erat ipsum lorem sit sed stet duo justo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cards end  -->
+
+    <section class="container-fluid">
+        <section class="container">
+            <section class="row mt-5">
+                <div class="col-12 col-md-6 col-lg-3 p-3">
+                    <img src="./img/about.jpg" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-end p-4">
+                    <h1 class="fw-bold" id="about_heading">25</h1>
+                    <p class="color_green">Year of Experience</p>
+                    <h2 class="fw-bold about_heading2" >We Make Your Home Like A Garden</h2>
+                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <div>
+                        <button class="button">Explore More</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-3 p-4 d-flex flex-column justify-content-end">
+                    <div class="row g-4">
+                        <div class="col-12 col-md-6 col-lg-12 border-start">
+                            <i class="fas fa-award fa-3x icon_ mb-2"></i>
+                            <h4 class="about_heading3">Award Winning</h4>
+                            <p>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna</p>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-12 border-start">
+                            <i class="fas fa-users fa-3x icon_ mb-2"></i>
+                            <h4 class="about_heading3">Dedicated Team</h4>
+                            <p>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+    <!-- about end  -->
+
+       
+    <section class="counter-banner d-flex align-items-center mt-5">
+        <div class="container text-center text-white">
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h1 class="fa-3x fw-bold">1234</h1>
+                    <p class="fs-5">Happy Clients</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h1 class="fa-3x fw-bold">1234</h1>
+                    <p class="fs-5">Garden Completed</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h1 class="fa-3x fw-bold">1234</h1>
+                    <p class="fs-5">Dedicated Staff</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h1 class="fa-3x fw-bold">1234</h1>
+                    <p class="fs-5">Awards Achieved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- counter end  -->
+
+    <section class="container-fluid">
+        <section class="container mt-5">
+            <section class="row"> 
+                <div class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center">
+                    <h5 class="color_green">Why Choosing Us!</h5>
+                    <h1 class="fw-bold about_heading2">Few Reasons Why People Choosing Us!</h1>
+                    <p>
+                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    </p>
+                    <div>
+                    <button class="button">Explore More</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="features">
+                                <i class="fa-solid fa-check fa-3x icon_ mb-2"></i>
+                                <h4 class="about_heading3">100% Satisfaction</h4>
+                            </div>
+                            <div class="features">
+                                <i class="fas fa-users fa-3x icon_ mb-2"></i>
+                                <h4 class="about_heading3">Dedicated Team</h4>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                            <div class="features">
+                                <i class="fa-solid fa-screwdriver-wrench fa-3x icon_ mb-2"></i>
+                                <h4 class="about_heading3">Modern Equipment</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+    <!-- features end  -->
+
+
+    <section class="container py-5 my-5">
+        <div class="text-center mb-5">
+            <h4 class="color_green">Our Services</h4>
+            <h1 class="fw-bold dark_green_heading">Services That We<br>Offer For You</h1>
+         </div>
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="bg-white text-center p-5 shadow rounded-2">
+                    <img src="./img/service-icon-1.png" class="img-fluid mb-4" alt="">
+                    <h5 class="fw-bold mb-4 dark_green_heading">Landscaping</h5>
+                    <p class="text-muted">
+                        Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="bg-white text-center p-5 shadow rounded-2">
+                    <img src="./img/service-icon-2.png" class="img-fluid mb-4" alt="">
+                    <h5 class="fw-bold mb-4 dark_green_heading">Pruning plants</h5>
+                    <p class="text-muted">
+                        Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="bg-white text-center p-5 shadow rounded-2">
+                    <img src="./img/service-icon-3.png" class="img-fluid mb-4" alt="">
+                    <h5 class="fw-bold mb-4 dark_green_heading">Irrigation & Drainage</h5>
+                    <p class="text-muted">
+                        Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+                    </p>
+                </div>
+             </div>
+             <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="bg-white text-center p-5 shadow rounded-2">
+                    <img src="./img/service-icon-4.png" class="img-fluid mb-4" alt="">
+                    <h5 class="fw-bold mb-4 dark_green_heading">Garden Maintenance</h5>
+                    <p class="text-muted">
+                        Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="bg-white text-center p-5 shadow rounded-2">
+                    <img src="./img/service-icon-5.png" class="img-fluid mb-4" alt="">
+                    <h5 class="fw-bold mb-4 dark_green_heading">Green Technology</h5>
+                    <p class="text-muted">
+                        Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="bg-white text-center p-5 shadow rounded-2">
+                    <img src="./img/service-icon-6.png" class="img-fluid mb-4" alt="">
+                    <h5 class="fw-bold mb-4 dark_green_heading">Urban Gardening</h5>
+                    <p class="text-muted">
+                        Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.
+                    </p>
+                </div>
+             </div>
+        </div>
+    </section>
+    <!-- service end  -->
+
+
+    <section class="quote-section d-flex justify-content-center align-items-center">
+        <div class="quote-box shadow-lg p-5 bg-white rounded-2">
+            <h1 class="text-center fw-bold mb-4 dark_green_heading">Get A Free Quote</h1>
+            <form>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6">
+                        <div class="form-floating mb-">
+                            <input type="text" class="form-control quote-input" id="name" placeholder="Your Name">
+                            <label for="name" class="text-muted">Your Name</label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-floating">
+                            <input type="email" class="form-control quote-input" id="email" placeholder="Your Email">
+                            <label for="email" class="text-muted">Your Email</label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-floating">
+                            <input type="text" class="form-control quote-input" id="mobile" placeholder="Your Mobile">
+                            <label for="mobile" class="text-muted">Your Mobile</label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-floating ">
+                            <input type="text" class="form-control quote-input" id="service" placeholder="Service Type">
+                            <label for="service" class="text-muted">Service Type</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <textarea class="form-control quote-input" placeholder="Message" id="message" style="height: 120px"></textarea>
+                            <label for="message" class="text-muted">Message</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <button type="submit" class="button">
+                        Submit Now
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- free Quotes end  -->
+
+
+    <section class="container my-5">
+        <div class="text-center mb-5">
+            <h4 class="color_green">Our Projects</h4>
+            <h1 class="fw-bold dark_green_heading">Some Of Our<br>Wonderful Projects</h1>
+        </div>
+        <div class="container text-center my-4">
+            <ul class="nav justify-content-center project-tabs p-2 ">
+                <li>Landscaping</li>
+                <li>Pruning plants</li>
+                <li>Irrigation & Drainage</li>
+                <li>Garden Maintenance</li>
+                <li>Green Technology</li>
+                <li>Urban Gardening</li>
+            </ul>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="project-box">
+                    <img src="./img/project-1.jpg" class="img-fluid rounded w-100" alt="">
+                    <div class="project-text">Landscaping</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="project-box">
+                    <img src="./img/project-2.jpg" class="img-fluid rounded w-100" alt="">
+                    <div class="project-text">Pruning plants</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="project-box">
+                    <img src="./img/project-3.jpg" class="img-fluid rounded w-100" alt="">
+                    <div class="project-text">Irrigation & Drainage</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="project-box">
+                    <img src="./img/project-4.jpg" class="img-fluid rounded w-100" alt="">
+                    <div class="project-text">Garden Maintenance</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="project-box">
+                    <img src="./img/project-5.jpg" class="img-fluid rounded w-100" alt="">
+                    <div class="project-text">Green Technology</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="project-box">
+                    <img src="./img/project-6.jpg" class="img-fluid rounded w-100" alt="">
+                    <div class="project-text">Urban Gardening</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- project end  -->
+
+
+    <section class="container my-5">
+        <div class="text-center mb-5">
+            <h4 class="color_green">Our Team</h4>
+            <h1 class="fw-bold dark_green_heading">Dedicated & Experienced<br>Team Members</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4 team-card">
+                <img src="./img/team-1.jpg" class="img-fluid rounded w-100" alt="">
+                <div class="team-info-box">
+                    <h5 class="fw-bold m-0 dark_green_heading">Doris Jordan</h5>
+                    <p class="mb-3 color_green">Landscape Designer</p>
+                    <div class="d-flex gap-3">
+                        <i class="fab fa-facebook-f color_green"></i>
+                        <i class="fab fa-twitter color_green"></i>
+                        <i class="fab fa-instagram color_green"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 team-card">
+                <img src="./img/team-2.jpg" class="img-fluid rounded w-100" alt="">
+                <div class="team-info-box">
+                    <h5 class="fw-bold m-0 dark_green_heading">Johnny Ramirez</h5>
+                    <p class="mb-3 color_green">Garden Designer</p>
+                    <div class="d-flex gap-3">
+                        <i class="fab fa-facebook-f color_green"></i>
+                        <i class="fab fa-twitter color_green"></i>
+                        <i class="fab fa-instagram color_green"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 team-card">
+                <img src="./img/team-3.jpg" class="img-fluid rounded w-100" alt="">
+                <div class="team-info-box">
+                    <h5 class="fw-bold m-0 dark_green_heading">Diana Wagner</h5>
+                    <p class="mb-3 color_green">Senior Gardener</p>
+                    <div class="d-flex gap-3">
+                        <i class="fab fa-facebook-f color_green"></i>
+                        <i class="fab fa-twitter color_green"></i>
+                        <i class="fab fa-instagram color_green"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team end -->
+
+    <section class="container my-5 py-5">
+        <div class="row align-items-center g-5">
+            <div class="col-12 col-lg-6">
+                <h5 class="color_green">Testimonial</h5>
+                <h1 class="fw-bold dark_green_heading">What Our Clients Say<br>About Us!</h1>
+                <p class="mt-4">
+                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+                    diam et eos. Clita erat ipsum et lorem et sit sed stet lorem sit clita duo justo.
+                </p>
+                <button type="submit" class="button">See More</button>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="col-12">
+                    <img src="./img/testimonial-1.jpg" alt="" class="rounded-1 mb-3" width="100" height="100">
+                    <div>
+                        <p>Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore dolor ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                        <h5 class="fw-bold dark_green_heading mt-3">Client Name</h5>
+                        <p class="mb-4">Profession</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial end  -->
+
+
+<footer class="container-fluid footer_bgColor text-white pt-5 pb-3 small">
+    <div class="container">
+        <div class="row g-5 mt-2">
+            <div class="col-12 col-md-6 col-lg-3">
+                <h4 class="fw-bold mb-4 fs-5">Our Office</h4>
+                <p class="mb-2">
+                    <i class="fas fa-map-marker-alt me-2"></i>
+                    123 Street, New York, USA
+                </p>
+                <p class="mb-2">
+                    <i class="fa-solid fa-phone me-2"></i>
+                    +012 345 67890
+                </p>
+                <p class="mb-3">
+                    <i class="fas fa-envelope me-2"></i>
+                    info@example.com
+                </p>
+                <div class="d-flex gap-3">
+                    <a class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center"
+                       style="width:40px;height:40px;">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center"
+                       style="width:40px;height:40px;">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center"
+                       style="width:40px;height:40px;">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center"
+                       style="width:40px;height:40px;">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3">
+                <h4 class="fw-bold mb-4 fs-5">Services</h4>
+                <p><i class="fas fa-chevron-right me-2"></i>Landscaping</p>
+                <p><i class="fas fa-chevron-right me-2"></i>Pruning Plants</p>
+                <p><i class="fas fa-chevron-right me-2"></i>Urban Gardening</p>
+                <p><i class="fas fa-chevron-right me-2"></i>Garden Maintenance</p>
+                <p><i class="fas fa-chevron-right me-2"></i>Green Technology</p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3">
+                <h4 class="fw-bold mb-4 fs-5">Quick Links</h4>
+                <p><i class="fas fa-chevron-right me-2"></i>About Us</p>
+                <p><i class="fas fa-chevron-right me-2"></i>Contact Us</p>
+                <p><i class="fas fa-chevron-right me-2"></i>Our Services</p>
+                <p><i class="fas fa-chevron-right me-2"></i>Terms & Condition</p>
+                <p><i class="fas fa-chevron-right me-2"></i>Support</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h4 class="fw-bold mb-4 fs-5">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+
+                <div class="input-group">
+                    <input type="email" class="form-control bg-light border-0" placeholder="Your email">
+                    <button class="btn footer_signup" type="button">SignUp</button>
+                </div>
+            </div>
+        </div>
+        <hr class="border-light mt-5">
+        <div class="text-center">
+            <p class="mb-0">© Your Site Name, All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- ------------------------------------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
